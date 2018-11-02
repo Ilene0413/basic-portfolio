@@ -84,9 +84,9 @@ li a {
     font-size: 20px;
     margin-left: 20px;
     margin-top: 20px;
-    margin-right: 200px;
+    margin-right: 20px;
     padding-top: 20px;
- clear: both; 
+    clear: both; 
       }
 
 #bio-image {
@@ -103,6 +103,7 @@ line color
 hr {
    background-color: #4aaaa5;
    margin-left: 20px;
+   margin-right: 20px;
     }
 /** 
     *paragraph style
@@ -132,6 +133,70 @@ textarea {
     height: 150px;
     width: 100%;
 }
+
+/**
+    * submit button style
+**/
+button {
+    background: #4aaaa5;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/** 
+      *picture styles
+**/
+#pictures {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 300px;
+        }
+
+#piccontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    max-height: 400px;
+}
+div#piccontainer figure {
+    position: relative;
+    width: 33.3%
+    }
+
+figcaption {
+    position: absolute;
+    bottom: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    margin-left: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+}
+    
+}
+.txtbottomcenter {
+    position: absolute;
+    bottom: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    }
+
 /**
    * footer style
 **/

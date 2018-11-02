@@ -10,38 +10,69 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
-  <header>
-    <h1>
-      Ilene Cohen
-    </h1>
-  </header>
+ <!-- heading of pages --> 
+ <div id="mainheader"> 
+  <header id="name">
+   Ilene Cohen
+ </header>
+ <br>
+ 
+<!-- Nav Bar -->
 
-  <!-- Nav Bar -->
-  
-  <nav>
-    About    Portfolio     Contact
+  <ul>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li> 
+      <li><a href="index.html">About</a></li>   
+  </ul>
+</div> 
 
-  </nav>
+ <body>
+<!--   Portfolio Content -->
+  <div id="maincontent">
+    <p id="pagecontent">
+      Portfolio
+    </p>
+  <!-- create line after -->
+    <hr id="lineattop">
 
-  <!-- photos -->
-  <div class="container">
-
-    <section id="portfolio">
-
-    <h2>
-       Portfolio
-    </h2>
-
-    <img id="bio-image" src="assets/images/IMG_0171.jpg"" alt="Cammie">
-    <img id="bio-image" src="assets/images/IMG_0188.jpg"" alt="Ilene with Jamie & Craig">
-    <img id="bio-image" src="assets/images/IMG_0680.JPG"" alt="Ilene in Kayak">
-    <img id="bio-image" src="assets/images/IMG_1069.jpg"" alt="Ilene on cruise">
-    <img id="bio-image" src="assets/images/IMG_2092.jpg"" alt="Ilene & Barry"> 
-  
+  <!--Picture section -->
+    <section id="pictures">
+      <div id="piccontainer">
+       <figure> <img src="assets/images/IMG_0188-paint.jpg" alt="Ilene with Jamie & Craig">
+         <figcaption>Jamie, Ilene, Craig</figcaption>
+        </figure>
+      <figure>
+          <img src="assets/images/IMG_0680.JPG" alt="Ilene in Kayak"">
+          <figcaption>Kayaking</figcaption>
+        </figure>
+      </div>
+      
+      <div id="piccontainer">
+          <figure>
+              <img src="assets/images/IMG_1069.jpg" alt="Ilene on cruise">
+              <figcaption>Vacation</figcaption> 
+            </figure>
+            <figure> 
+                <img src="assets/images/IMG_2092-paint.jpg" alt="Ilene and Barry"">
+                <figcaption>Ilene & Barry</figcaption>
+            </figure>
+          </figure>
+          </div>
+          <div id="piccontainer">
+            <figure>               
+              <img src="assets/images/IMG_0171-paint.jpg" alt="Cammie">
+             <figcaption>Cammie</figcaption>
+              </figure>
+              </div>
     </section>
   </div>
-
 </body>
+<div id="footerline">
 
+</div>
+<footer> 
+  copyright&copy
+</footer>
+
+</div>
 </html>
